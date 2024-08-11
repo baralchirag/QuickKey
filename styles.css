@@ -139,3 +139,26 @@ button {
     opacity: 1;
     transform: translateY(0);
 }
+
+.github-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    width: 50px; 
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    font-size: 24px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.github-icon:hover {
+    background-color: #000;
+    color: #fff;
+}
